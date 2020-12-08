@@ -10,6 +10,7 @@ import org.springframework.jms.support.converter.MessageType;
 public class JmsConfig {
 
     public static final String MY_QUEUE = "myQueue";
+    public static final String REPLY_BACK_QUEUE = "replyBackQueue";
 
     @Bean
     public MessageConverter messageConverter(){
