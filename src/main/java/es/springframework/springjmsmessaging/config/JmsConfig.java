@@ -7,7 +7,9 @@ import org.springframework.jms.support.converter.MessageConverter;
 import org.springframework.jms.support.converter.MessageType;
 
 @Configuration
-public class JsmConfig {
+public class JmsConfig {
+
+    public static String MY_QUEUE = "myQueue";
 
     @Bean
     public MessageConverter messageConverter(){
